@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 
 import Value from './Value';
 import Control from './Control';
-import { connect, bindActionCreators } from 'react-redux';
-import * as types from '../actions';
+// import { connect, bindActionCreators } from 'react-redux';
+import { connect } from 'react-redux';
+import * as actions from '../actions';
 
 const propTypes = {
 
@@ -21,7 +22,7 @@ class Counter extends Component {
     render() {
         return(
             <div>
-                <Value/>
+                <Value number={this.props.number}/>
                 <Control/>
             </div>
         );
@@ -53,4 +54,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 }
 
-export default Counter;
+export default connect(mapStateToProps, mapDispatchToProps)(Counter);
