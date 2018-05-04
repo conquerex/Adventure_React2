@@ -1,7 +1,7 @@
 // import {INCREMENT, DECREMENT, SET_COLOR} from './ActionTypes';
 import * as types from './ActionTypes';
 
-// 액션 생성자
+// 액션 생성자 함수
 export function increment() {
     return {
         type: types.INCREMENT
