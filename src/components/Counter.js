@@ -1,5 +1,5 @@
 import React, { Component } from 'react'; 
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import Value from './Value';
 import Control from './Control';
@@ -7,12 +7,9 @@ import Control from './Control';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 
-const propTypes = {
-
-};
-const defaultProps = {
-
-};
+// 미사용
+// const propTypes = {};
+// const defaultProps = {};
 
 class Counter extends Component { 
     constructor(props) { 
@@ -50,8 +47,9 @@ class Counter extends Component {
     }
 }
 
-Counter.propTypes = propTypes;
-Counter.defaultProps = defaultProps;
+// 미사용
+// Counter.propTypes = propTypes;
+// Counter.defaultProps = defaultProps;
 
 const mapStateToProps = (state) => {
     return {

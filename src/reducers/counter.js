@@ -38,6 +38,4 @@ export default function counter(state = initialState, action) {
             // SET_COLOR case
             return state;
     }
-
-    return state;
 }

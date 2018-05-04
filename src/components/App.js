@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import Counter from './Counter';
 
 class App extends Component {
@@ -12,8 +12,6 @@ class App extends Component {
     }
 }
 
-App.propTypes = {
-
-};
+// App.propTypes = {};
 
 export default App;
