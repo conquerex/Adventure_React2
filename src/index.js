@@ -1,3 +1,5 @@
+// 2018.05.03 Jongkook
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
