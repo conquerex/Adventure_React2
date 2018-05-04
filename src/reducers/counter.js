@@ -32,12 +32,10 @@ export default function counter(state = initialState, action) {
         case types.DECREMENT:
             return {
                 ...state,
-                number: state.number +1
+                number: state.number -1
             };
         default:
             // SET_COLOR case
             return state;
     }
-
-    return state;
 }

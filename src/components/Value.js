@@ -10,9 +10,10 @@ const defaultProps = {
 };
 
 class Value extends Component { 
-    constructor(props) { 
-        super(props)
-    }
+    // 미사용
+    // constructor(props) { 
+    //     super(props)
+    // }
 
     render() {
         return(
